@@ -10,3 +10,15 @@ One child grew taller than normal, limbs stretching unnaturally long. Bones dens
 At first, the children remained calm, unnervingly so. They were faster, stronger, taller—but something about them felt wrong.
 
 Years passed. The children grew into adults. Innocence vanished, replaced by minds slowly unraveling. Their bodies, once marvels of adaptation, began to fail. Wounds healed strangely, organs faltered intermittently, unexplained fevers appeared. The very traits meant to make them perfect were killing them from the inside.
+
+As the years dragged on, the madness became impossible to ignore. The subjects muttered constantly, describing things no one else could see. Walls appeared to breathe. Lights moved in impossible ways. Patterns formed in everything around them. They withdrew from one another and from staff, as though the world had become too loud, too chaotic to endure. Sleep became meaningless, food irrelevant. Even minor stimuli could provoke panic or aggression.
+
+Decades into the experiment, all subjects were dying slowly, their bodies failing while their minds unraveled. They scribbled frantically in notebooks, trying to capture what their senses perceived: impossible geometries, entities no one else could see, sequences that seemed meaningful only to them.
+
+The last surviving subject, NΦ‑17, bore the full weight of the experiment. Height stretched beyond human limits, limbs elongated unnaturally. Hair, teeth, and facial structure became alien. Eyes reflected light differently, seeing patterns no human could comprehend. They realized that no one could understand what they saw, and their body was failing in ways no one could prevent.
+
+Finally, NΦ‑17 wrote a note in a calm, deliberate hand before ending their own life:
+
+“You can’t make an angel in hell.”
+
+
