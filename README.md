@@ -20,5 +20,11 @@ The last surviving subject, NΦ‑17, bore the full weight of the experiment. He
 Finally, NΦ‑17 wrote a note in a calm, deliberate hand before ending their own life:
 
 “You can’t make an angel in hell.”
+Heart rate and respiration were normal until their final act. Tissue continued shifting even after death. Security footage from the last hours was missing. All other subjects had died gradually, following the same unstoppable decline.
+
+A final lab report, recovered alongside the files, ends with a single, chilling line from the supervising scientist:
+
+“They are deteriorating, yes… but this is progress.”
+
 
 
