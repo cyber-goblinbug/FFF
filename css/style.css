@@ -100,6 +100,32 @@ h1{
     
 }
 h2,h3{
-    text-align: ;
+    text-align: center;
     font-family:  cursive;
+}
+
+.grid1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.grid2 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns:  2fr 2fr 2fr;
+    gap: 20px;
+}
+
+.grid3{
+    height: 400px;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+#section2{
+    color: cornsilk;
+    background-color: chocolate;
 }
