@@ -24,7 +24,7 @@ h1{
 
 img{
     padding: 0%;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
@@ -44,9 +44,16 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr ;
+    justify-content: center;
+    justify-items: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 20px;
 
 }
 nav > ol > li{
+    justify-content: center;
+    justify-items: center;
     padding: 20px;
     list-style: none;
     background-color: mintcream;
@@ -55,10 +62,18 @@ nav > ol > li> a{
     color: rgb(57, 255, 20);
     font-size: 15px;
     padding: 10px;
+    justify-content: center;
+    justify-items: center;
 
 
 }
 nav > ol > li:hover{
-  background-color:slategray
+  background-color:black;
+  justify-content: center;
+    justify-items: center;
+  
 
+}
+h2{
+    color:crimson;
 }
