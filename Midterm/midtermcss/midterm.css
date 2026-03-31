@@ -1,0 +1,137 @@
+body {
+    background-color: #1a0f2e;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2c1b4a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #c9a0ff;
+    font-size: 35px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #c9a0ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* Home Section */
+.fantasy {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0f0820;
+}
+
+.start h2 {
+    color: #c9a0ff;
+    font-size: 32px;
+}
+
+.start p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#exploreBtn {
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#exploreBtn:hover {
+    background-color: #a78bfa;
+}
+
+/* Sections */
+.section-grid {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section-grid h2 {
+    text-align: center;
+    color: #c9a0ff;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+/* Race Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.race-card {
+    background-color: #2c1b4a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.race-card img {
+    width: 100%;
+    height: 180px;
+    object-fit:fill;
+}
+
+.race-card h3 {
+    color: #e0c9ff;
+    text-align: center;
+    padding: 15px 10px 5px;
+}
+
+.race-card p {
+    padding: 0 15px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Homeland Cards */
+.homeland-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.habitat-card {
+    background-color: #2c1b4a;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.habitat-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.habitat-card h3 {
+    color: #e0c9ff;
+    padding: 15px;
+}
