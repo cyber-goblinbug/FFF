@@ -7,48 +7,51 @@ header{
     padding: 0;
 }
 body{
-    background-color: black
+    background-color: black;
 }
 h1{
     font-family: Silkscreen;
-    color: rgba(12, 25, 206, 0.864)
+    color: rgba(12, 25, 206, 0.864);
 }
 h2{
     font-family: Silkscreen;
 }
 #TheExperiment{
     background-color: gray;
-    color: rgba(248, 29, 29, 0.962)
+    color: rgba(248, 29, 29, 0.962);
 }
 
-img{
-    padding: 0%;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+#Photos img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(248, 29, 29, 0.6);
+}
+#Photos p{
+    color: crimson;
+ 
 }
 #Photos{
-    padding: 20%;
-    margin: 20%;
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
+   display: grid;
+    grid-template-columns: 1fr 1fr;        /* 2 columns side by side */
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 a{
      text-decoration: none;
 }
 
 nav > ol{
-    width: 600px;
+    width: 800px;
+    max-width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0%;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -57,10 +60,11 @@ nav > ol{
 nav > ol > li{
     justify-content: center;
     justify-items: center;
-    padding: 30px;
+    padding: 25px;
     list-style: none;
     background-color: mintcream;
     text-align: center;
+    transition: all 0.4s ease;
 }
 nav > ol > li> a{
     color: rgb(57, 255, 20);
@@ -68,6 +72,7 @@ nav > ol > li> a{
     padding: 10px;
     justify-content: center;
     justify-items: center;
+    
 
 
 }
@@ -75,15 +80,16 @@ nav > ol > li:hover{
   background-color:black;
   justify-content: center;
     justify-items: center;
-  
+  transform: scale(1.05);
 
 }
 h2{
-    color:crimson;
+    color:coral;
 }
 .grid1{
     background-color: black;
     display: grid;
+    gap: 35px;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr ;
     justify-content: center;
@@ -91,4 +97,21 @@ h2{
     padding: auto;
     margin: auto;
     
+}
+.grid1 h4 {
+    grid-column: 1 / -1;                /* span both columns */
+    text-align: center;
+    color: coral;
+    margin: 10px 0 25px 0;
+}
+.photogrid{
+    background-color: #1a1a1a;
+    border: 2px solid #39ff14;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+footer p{
+    color: palevioletred;
 }
