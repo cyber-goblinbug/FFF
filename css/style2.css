@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 #Story{
     color: rgb(57, 255, 20);
 }
@@ -5,17 +6,15 @@ header{
     text-align: center;
     padding: 0;
 }
-ol{
-    list-style: none;
-    padding :0;
-    text-decoration: none;
-
-}
 body{
     background-color: black
 }
 h1{
+    font-family: Silkscreen;
     color: rgba(12, 25, 206, 0.864)
+}
+h2{
+    font-family: Silkscreen;
 }
 #TheExperiment{
     background-color: gray;
@@ -36,31 +35,36 @@ img{
     grid-gap: 20px;
     justify-content: center;
     justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 a{
      text-decoration: none;
 }
-nav{
+
+nav > ol{
+    width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     justify-content: center;
     justify-items: center;
-    margin: 0%;
-    padding: 0%;
-    gap: 20px;
-
+    align-items: center;
+    align-content: end;
 }
 nav > ol > li{
     justify-content: center;
     justify-items: center;
-    padding: 20px;
+    padding: 30px;
     list-style: none;
     background-color: mintcream;
+    text-align: center;
 }
 nav > ol > li> a{
     color: rgb(57, 255, 20);
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px;
     justify-content: center;
     justify-items: center;
@@ -76,4 +80,15 @@ nav > ol > li:hover{
 }
 h2{
     color:crimson;
+}
+.grid1{
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    justify-items: center;
+    padding: auto;
+    margin: auto;
+    
 }
