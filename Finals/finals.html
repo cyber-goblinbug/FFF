@@ -2,23 +2,112 @@
 <html lang="en">
 <head>
     <title>Writing Tracker</title>
-    <meta name="author" content="willie Weatherspoon">
-    <meta name="description" content="this site was created to learn html">
-    <meta name="keywords" content="html, fantasy, races, learning">
+    <meta name="author" content="Willie Weatherspoon">
+    <meta name="description" content="Creative writing progress tracker">
+    <meta name="keywords" content="writing, tracker, novels, comics, games">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="finals.css">
+    <link rel="stylesheet" href="finalscss/finals.css">
 </head>
+<script src="finalsjs/finals.js" defer></script>
 <body>
-    <header>
+
+<header>
+    <section id="Writingstyle" class="writing-card">
         <h1>Akashic Records</h1>
+
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="finalshtml/novels.html">Novels</a></li>
+                <li><a href="finalshtml/comics.html">Comics</a></li>
+                <li><a href="finalshtml/games.html">Games</a></li>
+                <li><a href="finalshtml/shortstory.html">Short Stories</a></li>
+                <li><a href="finalshtml/worldbuilding.html">Worldbuilding</a></li>
             </ul>
         </nav>
-    </header>
+    </section>
+</header>
+
+<main>
+
+    <!--  DASHBOARD -->
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+
+        <div class="stats">
+            <p>Total Progress: <span id="total-progress">0</span></p>
+            <p>Weekly Progress: <span id="weekly-progress">0</span></p>
+            <p>Streak: <span id="streak">0</span> days 🔥</p>
+        </div>
+
+        <button id="new-project">+ New Project</button>
+
+        <div id="project-list">
+            
+        </div>
+    </section>
+
+    <!-- ➕ CREATE PROJECT -->
+    <section id="create-project" style="display: none;">
+        <h2>Create Project</h2>
+
+        <form id="project-form">
+            <input type="text" id="title" placeholder="Project Title" required>
+
+            <select id="type">
+                <option value="writing">Novel / Short Story</option>
+                <option value="visual">Comic / Manga</option>
+                <option value="interactive">Game</option>
+            </select>
+
+            <input type="number" id="goal" placeholder="Goal (words/pages/scenes)" required>
+
+            <button type="submit">Create</button>
+        </form>
+    </section>
+
+    <!-- 📄 PROJECT VIEW -->
+    <section id="project-view" style="display: none;">
+        <h2 id="project-title">Project Title</h2>
+
+        <p>
+            Progress:
+            <span id="current">0</span> /
+            <span id="goal-display">0</span>
+        </p>
+
+        <button id="add-progress-btn">+ Add Progress</button>
+        <button id="back-btn">← Back</button>
+    </section>
+
+    <!-- 📅 DAILY LOG -->
+    <section id="log-section">
+        <h2>Daily Log</h2>
+        <ul id="log-list"></ul>
+    </section>
+
+    <!-- 🧍 CHARACTERS -->
+    <section id="characters">
+        <h2>Characters</h2>
+
+        <form id="character-form">
+            <input type="text" id="char-name" placeholder="Character Name" required>
+
+            <select id="char-role">
+                <option>Main</option>
+                <option>Side</option>
+                <option>Antagonist</option>
+            </select>
+
+            <button type="submit">Add Character</button>
+        </form>
+
+        <ul id="character-list"></ul>
+    </section>
+
+</main>
+
+<script src="finalsjs/finals.js"></script>
+
 </body>
 </html>
