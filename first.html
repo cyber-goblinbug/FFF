@@ -7,9 +7,8 @@
     <meta name="author" content="Willie Weatherspoon">
     <meta name="description" content="this site was created to learn html">
     <meta name="keywords" content="html, creepypasta, experiment">
-    <link rel="stylesheet" href="css/style2.css" media=" only screen and (min-width:960px)">
-    <link rel="stylesheet" href="css/phone.css" media=" only screen and (max-width:480px)">
-
+    <link rel="stylesheet" href="css/style2.css" media="only screen and (min-width:960px)">
+    <link rel="stylesheet" href="css/phone.css" media="only screen and (max-width:480px)">
 </head>
 
 <body id="top">
@@ -28,10 +27,17 @@
     </nav>
 </header>
 
+<!-- Needed for Event Listener 1 (click) -->
+<button id="warningBtn">[ ACCESS CLASSIFIED FILES ]</button>
+<p id="warningMsg" style="display:none;"></p>
+
+<!-- Needed for Event Listener 3 (keydown) -->
+<p id="keyHint">Press "D" to toggle light / dark mode</p>
+
 <main>
     <section id="Story">
         <h3>Recovered Records</h3>
-        <p>The facility had been abandoned for years. When explorers found it, the lights were dead, the halls silent. Among the dust and decay, a single server remained, powered by a backup generator no one could explain. On it were files labeled only “Continuation.”
+        <p>The facility had been abandoned for years. When explorers found it, the lights were dead, the halls silent. Among the dust and decay, a single server remained, powered by a backup generator no one could explain. On it were files labeled only "Continuation."
 The project had begun decades earlier, a genetic study with the stated goal of enhancing human adaptability. Internally, it was called something else: Reintegration Candidates.
 The first subjects were children. Small, curious, unremarkable. They were chosen for rare traits: unusual bone growth, fast muscle recovery, reflexes that outpaced any adult, subtle cognitive anomalies. Over the years, the traits began to manifest—but slowly, almost imperceptibly, the children began to die.
 One child grew taller than normal, limbs stretching unnaturally long. Bones densified, muscles strengthened without fatigue. They reacted before thinking. They slept less than anyone else, but never seemed tired. Their eyes perceived subtle movements and light patterns that no one else could detect. Their hair thickened rapidly, teeth became unnaturally strong, and faces shifted imperceptibly, like clay being molded without consent.
@@ -43,10 +49,10 @@ Decades into the experiment, all subjects were dying slowly, their bodies failin
 The last surviving subject, NΦ17, bore the full weight of the experiment. Height stretched beyond human limits, limbs elongated unnaturally. Hair, teeth, and facial structure became alien. Eyes reflected light differently, seeing patterns no human could comprehend. They realized that no one could understand what they saw, and their body was failing in ways no one could prevent.
 Finally, NΦ17 wrote a note in a calm, deliberate hand before ending their own life:
 
-“You cant make an angel in hell.” Heart rate and respiration were normal until their final act. Tissue continued shifting even after death. Security footage from the last hours was missing. All other subjects had died gradually, following the same unstoppable decline.
+"You cant make an angel in hell." Heart rate and respiration were normal until their final act. Tissue continued shifting even after death. Security footage from the last hours was missing. All other subjects had died gradually, following the same unstoppable decline.
 A final lab report, recovered alongside the files, ends with a single, chilling line from the supervising scientist:
-“They are deteriorating, yes… but this is progress.” FIN
-</p>
+"They are deteriorating, yes… but this is progress." FIN
+        </p>
     </section>
 
     <section id="TheExperiment">
@@ -77,7 +83,7 @@ The experiment aimed to:</p>
                     <li>Heighten sensory processing and neural responsiveness</li>
                     <li>Reactivate dormant or lost human biological capabilities</li>
                 </ul>
-                <p>The working theory suggested that human evolutionary history contained dormant or suppressed traits that, if reactivated simultaneously, could produce a stable “next-stage” human organism.</p>
+                <p>The working theory suggested that human evolutionary history contained dormant or suppressed traits that, if reactivated simultaneously, could produce a stable "next-stage" human organism.</p>
             </div>
         </div>
 
@@ -143,6 +149,9 @@ Both outcomes were considered valuable.</p>
     <p> 2026 Willie Weatherspoon</p>
     <a href="#top">Back to top</a>
 </footer>
+
+<!-- Script tag goes at the END of body so HTML loads before JS runs -->
+<script src="js/experiment.js"></script>
 
 </body>
 </html>

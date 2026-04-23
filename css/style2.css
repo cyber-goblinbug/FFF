@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 #Story{
     color: rgb(57, 255, 20);
 }
@@ -20,7 +21,6 @@ h2{
     background-color: gray;
     color: rgba(248, 29, 29, 0.962);
 }
-
 #Photos img{
     width: 100%;
     height: auto;
@@ -29,20 +29,18 @@ h2{
 }
 #Photos p{
     color: crimson;
- 
 }
 #Photos{
-   display: grid;
-    grid-template-columns: 1fr 1fr;        /* 2 columns side by side */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 40px 20px;
     max-width: 1100px;
     margin: 0 auto;
 }
 a{
-     text-decoration: none;
+    text-decoration: none;
 }
-
 nav > ol{
     width: 800px;
     max-width: 90%;
@@ -66,40 +64,35 @@ nav > ol > li{
     text-align: center;
     transition: all 0.4s ease;
 }
-nav > ol > li> a{
+nav > ol > li > a{
     color: rgb(57, 255, 20);
     font-size: 16px;
     padding: 10px;
     justify-content: center;
     justify-items: center;
-    
-
-
 }
 nav > ol > li:hover{
-  background-color:black;
-  justify-content: center;
+    background-color: black;
+    justify-content: center;
     justify-items: center;
-  transform: scale(1.05);
-
+    transform: scale(1.05);
 }
 h2{
-    color:coral;
+    color: coral;
 }
 .grid1{
     background-color: black;
     display: grid;
     gap: 35px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     justify-items: center;
     padding: auto;
     margin: auto;
-    
 }
 .grid1 h4 {
-    grid-column: 1 / -1;                /* span both columns */
+    grid-column: 1 / -1;
     text-align: center;
     color: coral;
     margin: 10px 0 25px 0;
@@ -114,4 +107,44 @@ h2{
 }
 footer p{
     color: palevioletred;
+}
+
+
+#warningBtn {
+    font-family: Silkscreen, monospace;
+    background-color: black;
+    color: rgb(57, 255, 20);
+    border: 2px solid rgb(57, 255, 20);
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+#warningBtn:hover {
+    background-color: rgb(57, 255, 20);
+    color: black;
+}
+
+#warningMsg {
+    font-family: Silkscreen, monospace;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.highlighted {
+    border: 2px solid crimson;
+    padding: 10px;
+    background-color: black;
+    transition: all 0.4s ease;
+}
+
+#keyHint {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    font-family: Silkscreen, monospace;
+    margin-bottom: 10px;
 }
